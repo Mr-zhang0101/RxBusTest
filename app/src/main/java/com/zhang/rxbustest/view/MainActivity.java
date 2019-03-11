@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
                     .add(R.id.fl_observable, observableFragment)
                     .commit();
         }
+        //ceshi
     }
 
     @Override
