@@ -2,12 +2,12 @@ package com.zhang.rxbustest.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import com.zhang.rxbustest.R;
 import com.zhang.rxbustest.rxbus.RxBus;
 
 public class MainActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
                     .add(R.id.fl_observable, observableFragment)
                     .commit();
         }
+        int i = 0;
+        i++;
+        Log.d("eee", "onCreate: "+i);
     }
 
     @Override
