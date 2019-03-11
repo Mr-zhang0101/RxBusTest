@@ -23,9 +23,6 @@ public class MainActivity extends AppCompatActivity {
                     .add(R.id.fl_observable, observableFragment)
                     .commit();
         }
-        int i = 0;
-        i++;
-        Log.d("eee", "onCreate: "+i);
     }
 
     @Override
